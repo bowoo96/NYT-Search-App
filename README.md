@@ -187,3 +187,6 @@ nyt-api를 이용하여 뉴스를 검색하고, 검색한 단어에 따른 검�
 
 - 가독성을 높이기 위해 axios 호출하는 코드를 Custom Hook으로 정의
 
+## 사용 시 유의할 점
+- NYT-Search-App/src/hooks/useNewsSearch.js 23번째 줄 api-key에 개인이 nyt api에서 직접 발급받은 key를 넣어야 작동이 된다.
+
